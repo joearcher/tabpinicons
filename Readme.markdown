@@ -9,7 +9,7 @@ This is a favicon service:
 
 Try out the demo at <https://besticon-demo.herokuapp.com> or find out how to [deploy your own version](#hosting) right now.
 
-[![Build Status](https://travis-ci.org/joearcher/besticon.svg?branch=master)](https://travis-ci.org/joearcher/besticon)
+[![Build Status](https://travis-ci.org/joearcher/tabpinicons.svg?branch=master)](https://travis-ci.org/joearcher/tabpinicons)
 [![Donate at PayPal](https://img.shields.io/badge/paypal-donate-orange.svg?style=flat)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6F9YBSSCM6KCW "Donate once-off to this project using Paypal")
 
 
@@ -69,7 +69,7 @@ Feel free to file other bugs - and offer your help - at <https://github.com/joea
 
 ## Hosting
 
-An easy way to host this service is to use Heroku, just go to [https://heroku.com/deploy](https://heroku.com/deploy?template=https://github.com/joearcher/besticon) to get started.
+An easy way to host this service is to use Heroku, just go to [https://heroku.com/deploy](https://heroku.com/deploy?template=https://github.com/joearcher/tabpinicons) to get started.
 
 ## Docker
 

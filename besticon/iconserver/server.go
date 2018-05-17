@@ -312,7 +312,7 @@ func registerGzipHandler(path string, f http.HandlerFunc) {
 }
 
 func main() {
-	fmt.Printf("iconserver %s (%s) (%s) - https://github.com/joearcher/besticon\n", besticon.VersionString, besticon.BuildDate, runtime.Version())
+	fmt.Printf("iconserver %s (%s) (%s) - https://github.com/joearcher/tabpinicons\n", besticon.VersionString, besticon.BuildDate, runtime.Version())
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
