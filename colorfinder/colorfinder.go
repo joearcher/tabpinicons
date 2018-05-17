@@ -17,7 +17,7 @@ import (
 	"image/color"
 
 	// Load supported image formats
-	_ "github.com/joearcher/besticon/ico"
+	_ "github.com/joearcher/tabpinicons/ico"
 	_ "image/gif"
 	_ "image/png"
 )

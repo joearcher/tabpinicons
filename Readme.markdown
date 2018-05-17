@@ -63,9 +63,9 @@ formats   | png,ico         | Comma-separated list of accepted image formats: pn
 
 I tried hard to make this useful but please note there are some known limitations:
 
-- Poor i18n support for letter icons ([#13](https://github.com/joearcher/besticon/issues/13))
+- Poor i18n support for letter icons ([#13](https://github.com/joearcher/tabpinicons/issues/13))
 
-Feel free to file other bugs - and offer your help - at <https://github.com/joearcher/besticon/issues>.
+Feel free to file other bugs - and offer your help - at <https://github.com/joearcher/tabpinicons/issues>.
 
 ## Hosting
 
@@ -73,7 +73,7 @@ An easy way to host this service is to use Heroku, just go to [https://heroku.co
 
 ## Docker
 
-A docker image is available at <https://hub.docker.com/r/matthiasluedtke/iconserver/>, generated from the [Dockerfile](https://github.com/joearcher/besticon/blob/master/Dockerfile) in this repo. I try to keep it updated for every release.
+A docker image is available at <https://hub.docker.com/r/matthiasluedtke/iconserver/>, generated from the [Dockerfile](https://github.com/joearcher/tabpinicons/blob/master/Dockerfile) in this repo. I try to keep it updated for every release.
 
 Note that this docker image is not used to run <https://besticon-demo.herokuapp.com> and therefore not well tested.
 
@@ -82,17 +82,17 @@ Note that this docker image is not used to run <https://besticon-demo.herokuapp.
 
 ### Download binaries
 
-Binaries for some operating systems can be downloaded from <https://github.com/joearcher/besticon/releases/latest>
+Binaries for some operating systems can be downloaded from <https://github.com/joearcher/tabpinicons/releases/latest>
 
 ### Build your own
 
 If you have Go 1.9 installed on your system you can use `go get` to fetch the source code and build the server:
 
-	$ go get -u github.com/joearcher/besticon/...
+	$ go get -u github.com/joearcher/tabpinicons/...
 
 If you want to build executables for a different target operating system you can add the `GOOS` and `GOARCH` environment variables:
 
-	$ GOOS=linux GOARCH=amd64 go get -u github.com/joearcher/besticon/...
+	$ GOOS=linux GOARCH=amd64 go get -u github.com/joearcher/tabpinicons/...
 
 ### Running
 
@@ -105,7 +105,7 @@ To use a different port use
 	$ PORT=80 iconserver
 
 Now when you open <http://localhost:8080/icons?url=instagram.com> you should see something like
-![Screenshot of The Favicon Finder](https://github.com/joearcher/besticon/raw/master/the-icon-finder.png)
+![Screenshot of The Favicon Finder](https://github.com/joearcher/tabpinicons/raw/master/the-icon-finder.png)
 
 
 ## Configuration
@@ -117,7 +117,7 @@ Variable         | Description            | Default Value
 `PORT`           | HTTP server port       | 8080
 `CACHE_SIZE_MB`  | Size for the [groupcache](http://github.com/golang/groupcache)|32
 `POPULAR_SITES`  | Comma-separated list of domains used on /popular page |
-`HOST_ONLY_DOMAINS`           | Comma-separated list of domains where requests for http://example.com/foobar will be rewritten to http://example.com. [`HOST_ONLY_DOMAINS`](https://github.com/joearcher/besticon/blob/master/HOST_ONLY_DOMAINS) used by https://besticon-demo.herokuapp.com. See [#27](https://github.com/joearcher/besticon/issues/27). |
+`HOST_ONLY_DOMAINS`           | Comma-separated list of domains where requests for http://example.com/foobar will be rewritten to http://example.com. [`HOST_ONLY_DOMAINS`](https://github.com/joearcher/tabpinicons/blob/master/HOST_ONLY_DOMAINS) used by https://besticon-demo.herokuapp.com. See [#27](https://github.com/joearcher/tabpinicons/issues/27). |
 
 
 ## Libraries etc.

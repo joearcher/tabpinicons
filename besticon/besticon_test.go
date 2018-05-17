@@ -12,7 +12,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/joearcher/besticon/vcr"
+	"github.com/joearcher/tabpinicons/vcr"
 )
 
 func TestKicktipp(t *testing.T) {
@@ -176,7 +176,7 @@ func TestYoutubeWithDomainRewrite(t *testing.T) {
 }
 
 func TestRandomOrg(t *testing.T) {
-	// https://github.com/joearcher/besticon/issues/28
+	// https://github.com/joearcher/tabpinicons/issues/28
 	_, err, finder := fetchIconsWithVCR("random.org.vcr", "https://random.org")
 	assertEquals(t, nil, err)
 

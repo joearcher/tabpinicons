@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/joearcher/besticon/besticon"
+	"github.com/joearcher/tabpinicons/besticon"
 )
 
 func main() {

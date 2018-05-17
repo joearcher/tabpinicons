@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/joearcher/besticon/ico"
+	"github.com/joearcher/tabpinicons/ico"
 )
 
 func main() {

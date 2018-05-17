@@ -25,9 +25,9 @@ import (
 	_ "image/gif"
 	_ "image/png"
 
-	_ "github.com/joearcher/besticon/ico"
+	_ "github.com/joearcher/tabpinicons/ico"
 
-	"github.com/joearcher/besticon/colorfinder"
+	"github.com/joearcher/tabpinicons/colorfinder"
 
 	"github.com/PuerkitoBio/goquery"
 	"golang.org/x/net/html/charset"
